@@ -1,4 +1,4 @@
-const Counter = (props) => {
+const Counter = (value, index) => {
   const counter = props.state;
   const setCounter = props.setState;
 

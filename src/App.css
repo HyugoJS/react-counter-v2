@@ -56,3 +56,6 @@
   border-radius: 20px;
   font-size: 30px;
 }
+.hide-button {
+  display: none;
+}
