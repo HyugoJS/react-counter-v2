@@ -13,10 +13,7 @@ function App() {
       <h1>Counter</h1>
       <div>
         {counters.map((elem, index) => {
-          const newCounter = [...counters];
-          console.log(elem);
-          // newCounter.push(1);
-          return newCounter;
+          return <div key={index}>{elem}</div>;
           // setCounters(newCounter);
         })}
       </div>
